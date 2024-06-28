@@ -1,0 +1,72 @@
+/*
+-------------------------------------------
+BURALARDAKİ KODLAR DEĞİŞTİRİLMEMELİ. EN
+AŞAĞIDAKİ NOTU OKUYALIM
+-------------------------------------------
+*/
+
+body {
+  background-color: #393646;
+  color: #f4eee0;
+}
+
+ul li:not(:last-child), ol li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.same-color-text {
+  color: #f4e1f4;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+ul.task-1-list li span {
+  color: #e1cda3 !important;
+}
+
+ul.task-1-list li#third-item {
+  color: #f4e1f4;
+}
+
+/*
+-------------------------------------------
+YUKARIDAKİ KODLARI DEĞİŞTİRMEMELİSİNİZ.
+BURADAN AŞAĞIYA ÇÖZÜMÜNÜZÜ YAZABİLİRSİNİZ.
+-------------------------------------------
+*/
+*{
+  box-sizing: box-border;
+}
+ul.task-1-list
+li#third-item
+span{
+  color: inherit !important;
+}
+.görev-madde-1{
+  width: 600px;
+  height:400px;
+}
+.görev-madde-2{
+  margin-top: 50px;
+  width: 30%;
+  height: 300px;
+  padding: 1.5rem; 
+}
+
+#görevmadde-3{
+  height: 100%;
+  width: 100%;
+  background-color: #E1CDA3;
+  border: radius 25px;
+}
+
+.son-madde{
+  background-color: #F4EEE0;
+  border: 3px solid  blue;
+  border-radius: 25px;
+
+}
